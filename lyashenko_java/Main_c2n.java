@@ -9,7 +9,7 @@ class Main_c2n {
 
     // получаем значение "a"
     String a_string = new String("error");
-	Double a_double = new Double(0.0);
+	Double a_double = Double.valueOf(0.0);
 	// пока в строке "error" повторяем ввод с консоли
 	while (a_string.equals("error")) {
 		// подсказка - введите число "a"
@@ -29,7 +29,7 @@ class Main_c2n {
 
     // получаем значение "b"
     String b_string = new String("error");
-	Double b_double = new Double(0.0);
+	Double b_double = Double.valueOf(0.0);
 	// пока в строке "error" повторяем ввод с консоли
 	while (b_string.equals("error")) {
 		// подсказка - введите число "b"
